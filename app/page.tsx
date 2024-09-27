@@ -6,18 +6,7 @@ type HomePageProps = {};
 const HomePage: FC<HomePageProps> = () => {
   return (
     <main>
-      <h1 style={{ color: "white", textAlign: "center" }}>
-        Time to get started!
-      </h1>
-      <p>
-        <Link href="/meals">Meals</Link>
-      </p>
-      <p>
-        <Link href="/meals/share">Share Meal</Link>
-      </p>
-      <p>
-        <Link href="/community">Community</Link>
-      </p>
+      <h1>Home Page</h1>
     </main>
   );
 };
