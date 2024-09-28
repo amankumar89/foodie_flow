@@ -7,9 +7,9 @@ import classes from "./main-header.module.css";
 import MainHeaderBackground from "./main-header-background";
 import NavLink from "./nav-link";
 
-type MainHeaderProps = {};
+// type MainHeaderProps = {};
 
-const MainHeader: FC<MainHeaderProps> = ({}) => {
+const MainHeader: FC = () => {
   return (
     <>
       <MainHeaderBackground />

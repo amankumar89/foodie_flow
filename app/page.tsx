@@ -3,9 +3,9 @@ import Link from "next/link";
 import classes from "./page.module.css";
 import ImageSlideshow from "@/components/images/image-slideshow";
 
-type HomePageProps = {};
+// type HomePageProps = {};
 
-const HomePage: FC<HomePageProps> = () => {
+const HomePage: FC = () => {
   return (
     <>
       <header className={classes.header}>
