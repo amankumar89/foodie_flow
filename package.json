@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npm initdb next start",
     "lint": "next lint",
     "dev2": "npx next dev -p 3001"
   },
